@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: [ master ]
+    branches: [ gdg-tw ]
   workflow_dispatch:
 
 jobs:
@@ -18,4 +18,4 @@ jobs:
           publish_dir: ./_site
           publish_branch: gh-pages
           force_orphan: true
-          cname: i.sitcon.org
+          cname: go.gdg.tw
