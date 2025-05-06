@@ -1,11 +1,11 @@
-# SITCON 短網址服務
+# GDG TW 短網址服務
 
 這個專案使用 GitHub Pages 建立一個簡單的短網址服務，開放自訂標題、摘要和 Open Graph 標籤。
 
 ## 如何建立新的短網址
 
 1. 在 `_redirects` 資料夾中建立一個新的 Markdown 檔案。檔名將成為短網址的一部分（slug）。
-   例如：`template.md` 將產生 `https://i.sitcon.org/template`
+   例如：`template.md` 將產生 `https://go.gdg.tw/template`
 
 2. 在 Markdown 檔案中使用以下格式：
 
